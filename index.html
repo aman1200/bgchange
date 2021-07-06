@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RGBA</title>
+</head>
+<body >
+    <div class="container">
+        <div class="main-body">
+            <div class="col">
+                <h1>Red</h1>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="255" value="0" class="slider" id="myRed"   >
+                </div>
+            </div>
+            <div class="col">
+                <h1>Green</h1>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="255" value="0" class="slider" id="myGreen" >
+                </div>
+            </div>
+            <div class="col">
+                <h1>Blue</h1>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="255" value="0" class="slider" id="myBlue"  >
+                </div>
+            </div>
+            <div class="col">
+                <h1>Alpha</h1>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="1" step="0.1" value="0" class="slider" id="myAlpha"  >
+                </div>
+            </div>
+            <div class="meter col">
+                <p>RGBA: (<span id="output-1">0</span>,<span id="output-2">0</span>,<span id="output-3">0</span>,<span id="output-4">0</span>) </p>
+            </div>
+        </div>
+    </div>
+       
+</body>
+<script src="script.js"></script> 
+</html>
